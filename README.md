@@ -24,10 +24,12 @@ The project is built using MERN stack that consisits of :
   
   # Running the React app
   $ cd frontend
+  $ npm install
   $ npm start
 
   # Running the Express app
   $ cd backend
+  $ npm install
   $ DEBUG=backend:* npm run devstart
 ```
 

@@ -5,6 +5,7 @@ let userController = require('../controllers/userController');
 /* GET list of all users */
 router.get('/', userController.all_users);
 
+/* POST logged in user */
 router.post('/login', userController.check_user);
 
 /* DELETE existing user by ID */

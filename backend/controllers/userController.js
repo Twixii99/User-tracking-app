@@ -84,7 +84,6 @@ exports.check_user = (req, res, next) => {
             console.log(user.password);
             bcrypt.compare( req.body.password, user.password )
                 .then(match => {
-                    console.log(match);
                     if(!match)
                         return next(new Error());
 
