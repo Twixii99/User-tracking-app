@@ -20,7 +20,7 @@ The project is built using MERN stack that consisits of :
 
 ```sh
   # Get the app
-  $ git clone https://github.com/Twixii99/Login-app.git
+  $ git clone https://github.com/Twixii99/User-tracking-app.git
   
   # Running the React app
   $ cd frontend
