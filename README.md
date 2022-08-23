@@ -1,4 +1,4 @@
-# Login-app with user tracking
+# User tracking app
 
 ## user stacks
 The project is built using MERN stack that consisits of :
