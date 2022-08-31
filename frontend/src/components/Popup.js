@@ -27,7 +27,7 @@ export const Popup = () => {
       }
     }
 
-    if(!(newUser.name === '' || newUser.email === '' || newUser.password === '')) {
+    if(confirmState && !(newUser.name === '' || newUser.email === '' || newUser.password === '')) {
       addUser().then(navigate(-1));
     } else {
       setConfirmState(false);
