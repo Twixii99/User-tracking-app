@@ -17,4 +17,6 @@ router.put('/add', userController.add_user);
 /* POST new info about an existing user */
 router.post('/update/:userId', userController.update_user);
 
+router.get('*', userController.handleOther);
+
 module.exports = router;
