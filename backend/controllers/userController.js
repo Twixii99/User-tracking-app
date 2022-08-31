@@ -77,7 +77,7 @@ exports.check_user = (req, res, next) => {
             }
 
             if(user == null) {
-                return next(err);
+                return res.status(404).end();
             }
 
             console.log(req.body.password);
