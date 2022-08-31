@@ -99,3 +99,7 @@ exports.check_user = (req, res, next) => {
                 });
         })
 }
+
+exports.handleOther = (req, res) => {
+    return res.status(404).end();
+}
