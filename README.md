@@ -29,7 +29,8 @@ The project is built using MERN stack that consisits of :
 
   # Running the Express app
   $ cd backend
-  $ npm install
+  $ rm -rf node-modules
+  $ npm update
   $ DEBUG=backend:* npm run devstart
 ```
 
