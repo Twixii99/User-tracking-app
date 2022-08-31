@@ -33,4 +33,14 @@ The project is built using MERN stack that consisits of :
   $ npm update
   $ DEBUG=backend:* npm run devstart
 ```
+## LogIn
+```
+As Admin:
+  email: admin@gmail.com
+  password: admin
+
+As Non-Admin:
+  email: nonadmin@gmail.com
+  password: nonadmin
+```
 
