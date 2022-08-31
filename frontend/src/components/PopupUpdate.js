@@ -29,7 +29,7 @@ export const PopupUpdate = () => {
       }
     }
 
-    if(confirmState && !(updateUser.name === '' || updateUser.email === '' || updateUser.password === '')) {
+    if(confirmState && !(updatedUser.name === '' || updatedUser.email === '' || updatedUser.password === '')) {
       updateUser().then(() => {
         setConfirmState(false);
         setUpdatedUser({name: '', email: '', password: '', admin: 'No'});
