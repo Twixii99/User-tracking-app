@@ -85,7 +85,7 @@ exports.check_user = (req, res, next) => {
             bcrypt.compare( req.body.password, user.password )
                 .then(match => {
                     if(!match)
-                        return next(new Error());
+                        return res.status(404).end();
 
                     // const accessToken = createTokens(user);
                     // res.cookie('access-token', accessToken, {
